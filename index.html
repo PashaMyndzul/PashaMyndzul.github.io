@@ -1,11 +1,317 @@
-<!DOCTYPE HTML>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>mypage</title>
- </head>  
- <body>
-  <p>Hello Cursor</p>
-  <img src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjW4f_LB50LxjSweoK6ptV5VVeg60mhnFnhISBMlHr9UMRMylb'</img>
- </body> 
- </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>NAVIGATION SYSTEM OF SPACESHIP!</title>
+</head>
+<body>
+    <div class="webPage">
+        <div class="container">
+        <header> 
+            <div class="header">
+            <div class="headerItemCrew">
+                <small>Crew</small><br>
+                <span class="smallSize">DRAGON</span>
+            </div>
+            <div class="headerItemPerigee">
+                <small>Perigee</small><br>
+                <span class="smallSize">185.013<span class="colorBlue">m</span></span>
+            </div>
+            <div class="headerItemApogee">
+                <small>Apogee</small><br>
+                <span class="smallSize">360.304<span class="colorBlue">m</span></span>
+            </div>
+            <div class="headerItemRelativeAltitude">
+                <small>Relative Altitude</small><br>
+                <span class="smallSize">50,948<span class="colorBlue">m</span></span>
+            </div>
+            <div class="headerItemRangeToISS">
+                <small>Range to ISS</small><br>
+                <span class="smallSize">625,713<span class="colorBlue">m</span></span>
+            </div>
+        </div>
+        </header>
+            <div class="headerImage">
+                    <img src="space.jpg" alt="picture" width="100%"/>
+                </div>
+        <blockDate>
+            <div class="blockDate">
+                <div class="dateItem">
+                     <small>Day 131</small>
+                     <div class="bigSize">13:46:11</div>
+                </div>
+                
+                    <img src="graphic.png" alt="graphic" width="22.5%" >
+               
+                <div class="blockDateItemNextBurn">
+                      <small class="colorText">Next burn</small>
+                      <small class="colorBlue">Enabled •</small>
+                      <div class="size">-0:05:48</div>
+                     <small class="colorText">13:52:00</small>
+                </div>
+                <div class="blockDateItemTarget">
+                    <small class="colorText" >Target</small>
+                    <div class="size">33.5 m/s</div>
+                    <small class="colorBlue">Thruster temp</small>
+                </div>
+            </div>
+        </blockDate>
+        <blockAlarms>
+            <div class="alarmsItem">
+                <div class="blockAlarmsItem">0 ALARMS</div>
+                <div class="blockAlarmsItemAllSys">ALL SYSTEM NOMINAL</div>
+                
+                    <img src="checked.png" alt="checked"  width="3%" >
+                
+            </div>
+        </blockAlarms>
+        <blockSection>
+            <div class="blockSection">
+                <div class="blockSectionDataLeft">
+                    <div class="blockSectionDataLeftUp">
+                        <p class="size">-0:08:24</p>
+                        <div>
+                            <small class="colorText">Next LOS</small><br>
+                            <small class="colorText">(00:03:17)</small>
+                        </div>
+                        <div>
+                            <div>13:54:36</div>
+                            <small class="colorText">DAY 131</small>
+                        </div>
+                    </div>                                          
+                    <div class="blockSectionDataLeftDown">
+                        <div class="size">-02:51:02</div>
+                        <small class="colorText">Estimated ISS Arrival</small>
+                    <div>
+                            <small>16:37:15</small><br>
+                            <small class="colorText">DAY 131</small>
+                    </div>
+                </div>
+            </div>
+                <div class="blockSectionDataRight">
+                    <div class="blockSectionDataRightUp">
+                        <div class="size">-0:23:23</div>
+                        <div>
+                            <small class="colorText">Next deorbit window<br>Pacific</small>
+                        </div>
+                        <div>
+                            <small>14:09:36</small><br>
+                            <small class="colorText">DAY 131</small>
+                        </div>
+                    </div>
+                      <div class="blockSectionDataRightDown">
+                        <div>
+                            <small class="colorBlue">Current Breakout</small> <br><small>Retrograd</small>
+                        </div>
+                        <div>
+                            <small>V=5.0 m/s</small>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </blockSection>
+        <blockSchedule>
+            <div class="ScheduleItem">
+                <div class="blockSchedule">
+                    <p><strong>Schedule</strong></p>
+                </div>
+                <div class="blockAllEvent">
+                     <p><strong>ALL EVENTS</strong></p>
+                 </div>
+                 <img src="down-arrow.png" alt="down-arrow" width="2%">
+            </div>
+        </blockSchedule>
+        <blockList>
+            <div class="listItem">
+                <div class="listItemTime">
+                    <small>13:10:00</small>
+                    <small>13:37:00</small>
+                    <small>13:46:00</small>
+                    <small>13:52:00</small>
+                </div>
+                <div class="listItemImg">
+                    <img src="poloska.png" alt="poloska">
+                </div>
+                <div class="listItemText">
+                     <div class="listItemTextRow">
+                        <small>Randzevous Burn Go/No-GO</small>
+                        <small>Ground</small>
+                    </div>
+                    <div class="listItemTextRow">
+                        <small>Prepare for andzevous Burn </small>
+                        <small>Crew</small>
+                    </div>
+                    <div class="listItemTextRow">
+                        <small>Randzevous Burn slow</small>
+                        <small>Dragon</small>
+                    </div>
+                    <div class="listItemTextRow">
+                        <small>Randzevous Burn</small>
+                        <small>Dragon</small>
+                    </div>
+                </div>
+            </div>
+        </blockList>
+        <blockRandzevous>
+            <div class="blockRandzevous">
+                <div class="randzevous">
+                    <strong>Randzevous</strong>
+                </div>
+                <div class="approach">
+                     <strong>Aproach</strong>
+                </div>
+            </div>
+        </blockRandzevous>
+        <blockTable>
+            <div class="table">
+                <div class="tr">
+                    <div class="td">Ground</div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                </div>
+                <div class="tr">
+                    <div class="td">TDRS</div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="tdBlock1"></div>
+                    <div class="tdBlock2"></div>
+                    <div class="tdBlock3"></div>
+                </div>
+                <div class="tr">
+                    <div class="td">ISS</div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                </div>
+                <div class="tr">
+                    <div class="td">Eclipse</div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                </div>
+                <div class="tr">
+                    <div class="td">Burn</div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                </div>
+                <div class="tr">
+                    <div class="td">Crew</div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                </div>
+                <div class="trLine"></div>
+                 <div class="trTime">
+                    <div class="trTimetd">12:30</div>
+                    <div class="trTimetd">13:00</div>
+                    <div class="trTimetd">13:30</div>
+                    <div class="trTimetd">14:00</div>
+                    <div class="trTimetd">14:30</div>
+                    <div class="trTimetd">15:00</div>
+                    <div class="trTimetd">15:30</div>
+                    <div class="trTimetd">16:00</div>
+                    <div class="trTimetd">16:30</div>
+                </div> 
+            </div>     
+        </blockTable>
+        <footerLine>
+            <div class="footerLine">
+                <div></div>
+            </div>
+        </footerLine>
+        </div>
+    
+    
+    <div class="container">
+        <div class="allSystems">
+                <p>ALL SYSTEMS</p>
+            </div>
+        <div class="pressureFlex">
+                    <div>
+                        <p>Pressure</p>
+                        <p class="size">14.5 <sup>PSI</sup></p>
+                        <span>stable</span>
+                    </div>
+                    <div>
+                        <p>Temperature</p>
+                        <p class="size">70.1 <sup>F</sup></p>
+                        <span>stable</span>
+                    </div>
+                    <div>
+                        <p>O <sub>2</sub> Levels</p>
+                        <p class="size">20.2 <sup>%</sup></p>
+                        <span>stable</span>
+                    </div>
+                    <div>
+                        <p>CO <sub>2</sub> Levels</p>
+                        <p class="size">0.3 <sup>%</sup></p>
+                        <span>stable</span>
+                    </div>
+                    <div>
+                        <p>O <sub>2</sub> Trunk</p>
+                        <p class="size">87%</p>
+                        <span>stable</span>
+                    </div>
+                </div>
+        <img src="communication.png" alt="schematics" width="100%">
+        <div class="blockLife">
+                        <div>LIFE SUPPORT VALVES SHEMATIC</div>
+                        <div>VIEW KEY</div>
+        </div>
+        <img src="schematics.png" alt="schematics" width="100%">
+        <footerList>
+                <div class="footerList">
+                    <div class="backgroundColor">ALL SYSTEMS</div>
+                    <div class="ItemBorder">OVERVIEW</div>
+                    <div class="ItemBorder">CABIN</div>
+                    <div class="ItemBorder">CONSABLES</div>
+                    <div class="ItemBorder">SUITS</div>
+                    <div class="border">VALVES</div>
+                </div>
+        </footerList>
+    </div>
+    </div>
+</body>
+</html>
