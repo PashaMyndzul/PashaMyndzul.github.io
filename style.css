@@ -254,7 +254,7 @@ body {
 .smallSize {
     font-size: 1.5em;
 }
-.headerItemPerigee, .headerItemApogee, .headerItemRelativeAltitude, .headerItemRangeToISS, .headerItemCrew {
+.headerItem {
     align-items: center;
     border: 3px rgb(92, 120,155) solid;
     flex-grow: 1
