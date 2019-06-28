@@ -133,7 +133,7 @@ body {
     padding: 0px 30px;
     justify-content:space-between;
 }
-.block_Schedule {
+.blockSchedule {
     display: flex;
     flex-grow: 100;
 }
