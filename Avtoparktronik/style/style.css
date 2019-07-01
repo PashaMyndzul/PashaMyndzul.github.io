@@ -3,14 +3,16 @@
     padding: 0;
     
 }
+
 header {
+    
     background-color: #FFDC00;
     padding: 20px 15px;
 }
 
 .container{
     margin: auto;
-    min-width: 1000px;
+    width: 1000px;
 }
 
 
@@ -27,11 +29,11 @@ header {
 header span{
     font-size: 2em;
 }
-header input{
+.tel_Number input{
     background-color:black;
     padding:10px 30px;  
     margin-top: 10px;
-    border-radius: 18px;
+    border-radius: 10px;
     color: white;
 }
 header small{
@@ -53,7 +55,7 @@ header small{
     color:white;
     font-size: 2em;
 }
-section input{
+div input{
     background-color:#FFDC00;
     padding:10px 50px;  
     margin-top: 15px;
@@ -267,6 +269,7 @@ form{
     align-items: center;
 }
 form input {
+    background-color: white;
     display: block;
     margin: 10px 0;
     height: 50px;
@@ -279,22 +282,104 @@ form input {
      padding-left: 70px;
  }
 
-
- @media  (max-width: 500px) {
-     .header_Order{
-         font-size: 5em;
+@media (max-width:768px){
+  .little_YellowLine{
+      display: none;
+  }
+  .position_Photo{
+      display: none;
+  }
+   header {
+       font-size: 0.8em;
+    
+   }
+   
+    .tel_Number{
+        display: none;
+    }
+    .title{
+        font-size: 1em;
+    }
+    .container{
+        width: 100px;
+        margin: 0;
         display: flex;
         flex-direction: column;
-     }
-    .order {
-       display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 1.7em;
+    }
+    .order{
+        margin: 0%;
+        display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        
+        align-items: center;    
+        text-align: center;
+        font-size: 0.8em;
     }
-    header{
-        display: block;
+    .block_Characteristics{
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
     }
+    .reason_TO_buy{
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;   
+    }
+    .save{
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center; 
+    }
+    .reviews{
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center; 
+    }
+    .warranty{
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center; 
+    }
+    .delivery{
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center; 
+    }
+    .form{
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center; 
+    }
+    .form_Weight{
+        width: 100%;
+    }
+  
 }
-
-
-
-
+ 
+     
+     
