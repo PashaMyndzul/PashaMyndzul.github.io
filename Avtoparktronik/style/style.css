@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    background-color: #FFDC00;
+    padding: 20px 15px;
+}
+
+.container{
+    margin: auto;
+    min-width: 1000px;
+}
+
+
+.container h2{
+    padding-top: 33px;
+}
+.color_Grey{
+    color: lightgray;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;  
+}
+header span{
+    font-size: 2em;
+}
+header input{
+    background-color:black;
+    padding:10px 30px;  
+    margin-top: 10px;
+    border-radius: 18px;
+    color: white;
+}
+header small{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+}
+.header_Order {
+    background: url(backgroundImage.png);opacity: 3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+#color_Header{
+    color:#FFDC00;
+}
+#color_White{
+    color:white;
+    font-size: 2em;
+}
+section input{
+    background-color:#FFDC00;
+    padding:10px 50px;  
+    margin-top: 15px;
+    border-radius: 7px;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2em
+}
+.order {
+    display: flex;
+    justify-content: space-around;
+
+}
+.titleColor_Yellow{
+    color: #FFDC00;
+    font-size: 2em;
+}
+#size_Text{
+    font-size: 20px;
+}
+#sizeText_Title{
+    
+    font-weight: bold;
+    line-height: 60px;
+}
+.clock{
+    display: flex;
+    margin: 20px ;
+}
+.clock_Item {
+    background: #333333;
+    color: #fff;
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 100;
+    font-size: 40px;
+}
+.dot_Item {
+    padding: 10px;
+    color:  #333333;
+    font-weight:bolder;
+    font-size: 40px;
+}
+.Order_ImgTwo {
+    text-align: right;
+}
+.yellow_Line{
+    width: 30%;
+    margin: 20px auto;
+    background: #FFDC00;
+    height: 2px;
+}
+.little_YellowLine{
+    display: flex;
+    width: 5%;
+    margin: 10px;
+    background: #FFDC00;
+    height: 2px;
+
+}
+#color_Yellow{
+    color:#FFDC00;
+}
+h2{
+    text-align: center;
+    padding: 50;
+}
+.block_Characteristics{
+    display: flex;
+    justify-content: space-between;
+}
+.block_Characteristics span{
+    color: grey;
+    font-size: 15px;
+    line-height: 30px;
+    font-style: italic;
+    padding: 15px;
+}
+.block_Characteristics h4{
+    padding: 15px;
+}
+.align_Image{
+    display: flex;
+    align-items: center;
+    
+}
+.main_Characteristics input{
+    display: flex;
+    align-content: center;
+}
+.buttonAlign_Centre {
+    position: relative;
+    right: -40%;
+    margin: 20px 0 40px 0;
+}
+.reason_TO_buy{
+    display: flex;
+    align-items: baseline;
+    padding-top: 30px;
+}
+.reason_Block{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.reason_Block div{
+    text-align: center;
+}
+.reason_Block h4{
+    padding: 15px;
+}
+.save {
+    display: flex;
+}
+.How_TO_Work h2{
+    padding-top: 50px;
+}
+.video {
+    margin: auto;
+    width: 63%;
+    padding: 50px;
+}
+.bumper_Repair{
+    margin-right: 40px;
+}
+.bumper_Repair span{
+    font-size: 0.8em;
+    
+}
+.bumper_Repair p{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.price_With_Gift span{
+    font-size: 0.8em;
+}
+
+.price_With_Gift p{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.broken_Bumper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.reviews {
+    display: flex;
+    
+    align-items: center;
+}
+.reviews div{
+    margin: 30px;
+}
+
+.reviews p{
+    width: 400px;
+    text-align: start;
+}
+.position_Photo {
+    display: flex;
+    padding-left: 60%;
+    align-items:center;
+}
+.delivery_AND_Warranty {
+    padding:60px; 
+}
+.delivery_AND_Warranty ul{
+    padding: 30px;
+}
+.warranty{
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    padding-top: 40px;
+    justify-content: space-around;
+}
+.delivery{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.plus_Position{
+    display: flex;
+    justify-content: flex-end;
+}
+.price_Position{
+    display: flex;
+}
+.inverted_Image{
+    transform: rotateX(180deg);
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+}
+.form_Weight{
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input {
+    display: block;
+    margin: 10px 0;
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.button_Position {
+    font-size: 30px;
+     padding-left: 70px;
+ }
+
+
+ @media  (max-width: 500px) {
+     .header_Order{
+         font-size: 5em;
+        display: flex;
+        flex-direction: column;
+     }
+    .order {
+       display: flex;
+        flex-direction: column;
+    }
+    header{
+        display: block;
+    }
+}
+
+
+
+
