@@ -1,21 +1,15 @@
 *{
     margin: 0;
-    padding: 0;
-    
+    padding: 0;   
 }
-
 header {
-    
     background-color: #FFDC00;
     padding: 20px 15px;
 }
-
 .container{
     margin: auto;
-    width: 1000px;
+    width: 80%;
 }
-
-
 .container h2{
     padding-top: 33px;
 }
@@ -29,12 +23,16 @@ header {
 header span{
     font-size: 2em;
 }
-.tel_Number input{
+.tel_Number small{
+    text-align: right;
+}
+.tel_Number button{
     background-color:black;
     padding:10px 30px;  
     margin-top: 10px;
     border-radius: 10px;
     color: white;
+    font-size: 0.8em;
 }
 header small{
     display: block;
@@ -55,11 +53,19 @@ header small{
     color:white;
     font-size: 2em;
 }
-div input{
+.Order_Mobile_ImgOne{
+    display: none;
+}
+.Order_Mobile_ImgTwo{
+    display: none;
+}
+div button{
     background-color:#FFDC00;
     padding:10px 50px;  
     margin-top: 15px;
     border-radius: 7px;
+    border-bottom: 5px #5F5F5F solid;
+    
     color: black;
     font-weight: bolder;
     font-size: 1.2em
@@ -148,9 +154,7 @@ h2{
     align-content: center;
 }
 .buttonAlign_Centre {
-    position: relative;
-    right: -40%;
-    margin: 20px 0 40px 0;
+    margin: 20px 450px 40px;
 }
 .reason_TO_buy{
     display: flex;
@@ -223,9 +227,16 @@ h2{
     display: flex;
     padding-left: 60%;
     align-items:center;
+    border-radius: 50%;
+}
+.position_Photo img{
+    border-radius: 50%;
 }
 .delivery_AND_Warranty {
     padding:60px; 
+}
+.delivery_AND_Warranty li{
+    padding: 4px;
 }
 .delivery_AND_Warranty ul{
     padding: 30px;
@@ -281,19 +292,45 @@ form input {
     font-size: 30px;
      padding-left: 70px;
  }
+ footer div{
+    
+    height: 100px;
+    background: #333333;
+    
+ }
 
 @media (max-width:768px){
-  .little_YellowLine{
+  
+    .order_Image{
+        display: none;
+    }
+    .Order_Mobile_ImgOne {
+        display: block;
+    }
+    .Order_Mobile_ImgTwo {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .Order_Mobile_ImgTwo img{
+        width: 20%;
+        position: absolute;
+        display: block;
+        bottom: 20%;
+    }
+    .little_YellowLine{
       display: none;
   }
   .position_Photo{
       display: none;
   }
-   header {
-       font-size: 0.8em;
-    
+   .header_Order {
+    padding-bottom: 30px;
+    padding-top: 30px;
    }
-   
+   .order{
+       flex-direction: column;
+   }
     .tel_Number{
         display: none;
     }
@@ -301,24 +338,23 @@ form input {
         font-size: 1em;
     }
     .container{
-        width: 100px;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        font-size: 1.7em;
-    }
-    .order{
-        margin: 0%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        width: 80%;
         
-        align-items: center;    
-        text-align: center;
-        font-size: 0.8em;
     }
+    .order p{
+        font-size: 1.5em;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+  
+    
+    .buttonAlign_Centre{
+        
+        margin: 20px 0 0 60px;
+    }
+
     .block_Characteristics{
         margin: 0%;
         display: flex;
@@ -377,9 +413,9 @@ form input {
     }
     .form_Weight{
         width: 100%;
-    }
-  
+     }
 }
+
  
      
      
