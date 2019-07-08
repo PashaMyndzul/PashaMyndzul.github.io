@@ -1,0 +1,33 @@
+body {
+    height: 800px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.key {
+    background-color: white;
+    border: 3px solid grey;
+    width: 50px;
+    height: 200px;
+    border-radius: 8px;
+    margin: 5px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    transition: all .1s ease;
+}
+.playing {
+    transform: scale(.95);
+    border-color: #196151;
+    box-shadow: 0 0 1rem #196151;
+    
+    
+  }
+ 
