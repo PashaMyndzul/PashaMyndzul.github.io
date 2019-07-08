@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;   
 }
+
 header {
     background-color: #FFDC00;
     padding: 20px 15px;
@@ -13,6 +14,9 @@ header {
 .container h2{
     padding-top: 33px;
 }
+
+
+
 .color_Grey{
     color: lightgray;
 }
@@ -59,17 +63,18 @@ header small{
 .Order_Mobile_ImgTwo{
     display: none;
 }
-div button{
+button{
     background-color:#FFDC00;
     padding:10px 50px;  
     margin-top: 15px;
     border-radius: 7px;
     border-bottom: 5px #5F5F5F solid;
-    
     color: black;
     font-weight: bolder;
     font-size: 1.2em
 }
+
+
 .order {
     display: flex;
     justify-content: space-around;
@@ -82,9 +87,8 @@ div button{
 #size_Text{
     font-size: 20px;
 }
-#sizeText_Title{
-    
-    font-weight: bold;
+.sizeText_Title{
+    font-size: 1em;
     line-height: 60px;
 }
 .clock{
@@ -149,13 +153,9 @@ h2{
     align-items: center;
     
 }
-.main_Characteristics input{
-    display: flex;
-    align-content: center;
-}
-.buttonAlign_Centre {
-    margin: 20px 450px 40px;
-}
+
+
+
 .reason_TO_buy{
     display: flex;
     align-items: baseline;
@@ -176,14 +176,14 @@ h2{
 }
 .save {
     display: flex;
+    justify-content: space-around;
 }
 .How_TO_Work h2{
     padding-top: 50px;
 }
 .video {
-    margin: auto;
-    width: 63%;
-    padding: 50px;
+    display: flex;
+    justify-content: center;
 }
 .bumper_Repair{
     margin-right: 40px;
@@ -212,29 +212,25 @@ h2{
 }
 .reviews {
     display: flex;
-    
     align-items: center;
+    justify-content: space-between;
 }
 .reviews div{
-    margin: 30px;
+    margin: 15px;
 }
 
-.reviews p{
-    width: 400px;
-    text-align: start;
-}
+
 .position_Photo {
+   
     display: flex;
-    padding-left: 60%;
+    justify-content: flex-end;
     align-items:center;
     border-radius: 50%;
 }
 .position_Photo img{
     border-radius: 50%;
 }
-.delivery_AND_Warranty {
-    padding:60px; 
-}
+
 .delivery_AND_Warranty li{
     padding: 4px;
 }
@@ -246,11 +242,11 @@ h2{
     align-items: baseline;
     text-align: center;
     padding-top: 40px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .delivery{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 20px;
 }
 .plus_Position{
@@ -259,6 +255,7 @@ h2{
 }
 .price_Position{
     display: flex;
+    justify-content: space-between;
 }
 .inverted_Image{
     transform: rotateX(180deg);
@@ -266,13 +263,14 @@ h2{
 .form{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px 0 20px 0;
 }
 .form_Weight{
-    width: 40%;
-    align-items: center;
-    justify-content: space-between;
+    
+    width: 45%;
+    
+    
 }
 form{
     display: flex;
@@ -288,19 +286,30 @@ form input {
     border-radius: 10px;
     padding-left: 10px;
 }
-.button_Position {
-    font-size: 30px;
-     padding-left: 70px;
+
+ .button_Position{
+     display: flex;
+     justify-content: space-around;
  }
  footer div{
-    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    font-size: 2em;
+    color:white;
     height: 100px;
     background: #333333;
     
  }
 
 @media (max-width:768px){
-  
+  body {
+      width: 120%;
+  }
+  .header_Order{
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
     .order_Image{
         display: none;
     }
@@ -324,12 +333,10 @@ form input {
   .position_Photo{
       display: none;
   }
-   .header_Order {
-    padding-bottom: 30px;
-    padding-top: 30px;
-   }
+   
    .order{
        flex-direction: column;
+       font-size: 1em;
    }
     .tel_Number{
         display: none;
@@ -338,47 +345,66 @@ form input {
         font-size: 1em;
     }
     .container{
-        width: 80%;
+        width: 85%;
         
     }
     .order p{
-        font-size: 1.5em;
+       
     font-weight: bold;
-    line-height: 40px;
-    margin-bottom: 20px;
+   
     text-align: center;
     }
-  
+  .order button {
+      display: flex;
+      align-items: center;
+  }
+    .block_Characteristics div{
+        width: 150%;
+    text-align: center;
     
-    .buttonAlign_Centre{
-        
-        margin: 20px 0 0 60px;
     }
-
+    
+    h2{
+        font-size: 1.5em;
+    }
+    h4{
+        font-size: 1.4em;
+    }
+    
     .block_Characteristics{
-        margin: 0%;
+     
         display: flex;
-        flex-direction: column;
+       
         flex-wrap: wrap;
-        align-items: center;
-        text-align: center;
+        
     }
-    .reason_TO_buy{
-        margin: 0%;
-        display: flex;
+    
+    .video video{
+        width: 100%;
+        
+    }
+    .reason_TO_buy {
         flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        text-align: center;   
+    align-items: center;
+    }
+    .reason_Block{
+        padding-top: 15px;
+        width: 100%;
     }
     .save{
-        margin: 0%;
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        text-align: center; 
+        flex-direction: column;  
+
     }
+    .bumper_Repair img {
+        width: 100%;
+    }
+   .save_Plus{
+       width: 40px;
+   }
+   .price_With_Gift img{
+       width: 100%;
+   }
     .reviews{
         margin: 0%;
         display: flex;
