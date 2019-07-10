@@ -22,12 +22,10 @@ body {
     align-items: flex-end;
     justify-content: space-around;
     transition: all .1s ease;
+    align-content: center;
 }
 .playing {
     transform: scale(1.1);
     border-color: #196151;
     box-shadow: 0 0 1rem #196151;
-    
-    
   }
- 
