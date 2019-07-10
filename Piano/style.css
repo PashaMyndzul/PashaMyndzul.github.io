@@ -24,7 +24,7 @@ body {
     transition: all .1s ease;
 }
 .playing {
-    transform: scale(.95);
+    transform: scale(1.1);
     border-color: #196151;
     box-shadow: 0 0 1rem #196151;
     
