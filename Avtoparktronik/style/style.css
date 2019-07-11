@@ -1,6 +1,10 @@
+body {
+    width: auto;
+}
 *{
     margin: 0;
-    padding: 0;   
+    padding: 0;  
+    
 }
 
 header {
@@ -50,7 +54,7 @@ header small{
     padding-top: 160px;
     padding-bottom: 100px;
 }
-#color_Header{
+.color_Header{
     color:#FFDC00;
 }
 #color_White{
@@ -127,7 +131,7 @@ button{
     height: 2px;
 
 }
-#color_Yellow{
+.color_Yellow{
     color:#FFDC00;
 }
 h2{
@@ -151,6 +155,7 @@ h2{
 .align_Image{
     display: flex;
     align-items: center;
+    justify-content: center;
     
 }
 
@@ -259,6 +264,11 @@ h2{
 }
 .inverted_Image{
     transform: rotateX(180deg);
+    width: 100%;
+}
+.inverted_Image img{
+    
+    width: 100%;
 }
 .form{
     display: flex;
@@ -302,9 +312,9 @@ form input {
     
  }
 
-@media (max-width:768px){
+@media (max-width:800px){
   body {
-      width: 120%;
+      width: 130%;
   }
   .header_Order{
     padding-bottom: 30px;
@@ -316,6 +326,10 @@ form input {
     .Order_Mobile_ImgOne {
         display: block;
     }
+    .Order_Mobile_ImgOne img {
+        width: 100%;
+        
+    }
     .Order_Mobile_ImgTwo {
         position: relative;
         display: flex;
@@ -326,6 +340,10 @@ form input {
         position: absolute;
         display: block;
         bottom: 20%;
+    }
+    .clock{
+        display: flex;
+        justify-content: center;
     }
     .little_YellowLine{
       display: none;
