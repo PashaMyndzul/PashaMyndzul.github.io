@@ -13,7 +13,13 @@ body {
     background-color: gray;
   }
   
-  #slider {
+  .slider1 {
+    padding-top: 25px;
+    background-color: green;
+    width:700px;
+    margin: 10px;
+  }
+  .slider2 {
     padding-top: 25px;
     background-color: green;
     width: 95%;
@@ -28,12 +34,5 @@ body {
     border-radius: 5px;
     width: 80px;
     border-color: white;
-  }
-  
-  #slider1 {
-    padding-top: 25px;
-    background-color: green;
-    width: 95%;
-    margin: 10px;
   }
   
