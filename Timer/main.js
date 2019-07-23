@@ -68,9 +68,9 @@ class Timer {
   }
 }
 const timer1 = new Timer({
-  time: 3,
+  time: 60,
   intervalValue: 1000,
-  intervalUpdateTimer: 2,
+  intervalUpdateTimer: 1,
   turnOn: true,
   permission: false,
   domElemSec: `sec`,
@@ -82,9 +82,9 @@ id(`button_Timer1`).addEventListener(`click`, () => {
   timer1.startTimer();
 });
 const timer2 = new Timer({
-  time: 2,
-  intervalValue: 1000,
-  intervalUpdateTimer: 2,
+  time: 5444,
+  intervalValue: 2000,
+  intervalUpdateTimer: 4,
   turnOn: true,
   permission: false,
   domElemSec: `sec1`,
