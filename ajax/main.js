@@ -1,5 +1,3 @@
-
-
 const API = 'https://test-users-api.herokuapp.com/';
 
 let users = [];
@@ -13,24 +11,23 @@ btnCreate.addEventListener('click', () => {
     name: nameEl.value,
     age: ageEl.value
   };
-  //console.log('user:', user);
-  console.log(users);
   fetch(API + 'users', {
-    method: 'POST',
-    //body: JSON.stringify({ name: "NEW", age: 12, id:"10"})
-  
-  }).then((res) => {
-   // console.log(user);
-      return res.text(); 
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(user)
+    }).then((res) => {
+      return res.json();
     })
     .then((data) => {
-      users.data.id = data.id;
+      users.id = data.id;
       users.data.unshift(user);
       console.log(user);
       renderUsers();
     }).catch(err => {
       console.log(err);
-    }) 
+    })
 })
 
 function getUsers() {
@@ -40,18 +37,15 @@ function getUsers() {
     });
 }
 
-async function deleteUser(userId) {
-    console.log(userId);
-  const result = await fetch(API + 'users/' + userId, {
+async function deleteUser(id) {
+  const result = await fetch(API + 'users/' + id, {
     method: 'DELETE'
   })
-  
-  if(result.status !== 200) {
-      console.log(`fail`);
-      return Promise.reject();
+
+  if (result.status !== 200) {
+    console.log(`fail`);
+    return Promise.reject();
   }
- // users = users.data.filter((user) => user.id !== userId);
- // renderUsers();
 }
 
 function renderUsers() {
@@ -69,7 +63,7 @@ function renderUsers() {
 
     btn.addEventListener('click', () => {
       deleteUser(user.id, div).then(() => {
-          div.remove();
+        div.remove();
       });
     })
     div.append(btn);
@@ -79,6 +73,5 @@ function renderUsers() {
 
 getUsers().then(data => {
   users = data;
-  console.log('users: ',data);
   renderUsers();
 });
