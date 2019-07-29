@@ -1,49 +1,54 @@
 form {
-    margin: 20px auto;
-  }
-  
-  .users {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .user {
-    border-radius: 20px;
-    flex-basis: 200px;
-    background: #3dbef1;
-    margin: 5px;
-    padding: 5px;
-    position: relative;
-    color: #fdfdfd;
-  }
-  
-  .remove {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    border-radius: 10px;
-    background: none;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  .remove:hover {
-    background: #fdfdfd;
-  }
-  label {
-      display: flex;
-      flex-direction: column;
-      margin: 0 100px 5px 100px;
-  }
-  #add{
-    border-radius: 10px ;
-    width: 100px;
-  }
-  form {
-      text-align: center;
-  }
-  input {
-      text-align: center;
-      color: red;
-      align-items: center;
-  }
+  margin: 20px auto;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user {
+  border-radius: 20px;
+  flex-basis: 200px;
+  background: #3dbef1;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  color: #fdfdfd;
+}
+
+.remove {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 10px;
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.remove:hover {
+  background: #fdfdfd;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px 5px 100px;
+}
+
+#add {
+  border-radius: 10px;
+  width: 100px;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  color: red;
+  align-items: center;
+}
