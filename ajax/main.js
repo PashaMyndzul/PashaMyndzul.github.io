@@ -11,6 +11,7 @@ btnCreate.addEventListener('click', () => {
     name: nameEl.value,
     age: ageEl.value
   };
+  if (nameEl.value != "" && ageEl.value != "") {
   fetch(API + 'users', {
       method: 'POST',
       headers: {
@@ -28,6 +29,7 @@ btnCreate.addEventListener('click', () => {
     }).catch(err => {
       console.log(err);
     })
+  }
 })
 
 function getUsers() {
