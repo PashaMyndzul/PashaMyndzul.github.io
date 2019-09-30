@@ -1,0 +1,45 @@
+
+  
+  .shows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  h4 {
+    cursor:pointer;
+   }
+  .show {
+    cursor: pointer;
+    border-radius: 20px;
+    flex-basis: 200px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    justify-content: space-around;
+    
+  }
+  
+  button {
+    background-color: Transparent;
+    box-shadow:5px ;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    padding: 20px;
+  }
+  button:focus {
+    background: #e5e5e5;
+    font-size: 15px;
+    outline: none;
+    
+  }
+
+
+  .prev {
+    pointer-events: none; 
+    cursor: default;
+  }
+   
