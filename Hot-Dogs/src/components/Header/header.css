@@ -1,0 +1,30 @@
+/** @format */
+
+.iconContainer {
+	display: flex;
+	align-items: center;
+}
+
+.headerContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 25px 0 25px;
+}
+
+.title {
+	background: black;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	border: 2px solid #000;
+	margin-left: 10px;
+	padding: 0 4px 0 4px;
+}
+.bottomLine {
+	box-shadow: 0 0 2px 0 grey;
+}
+.addButton {
+	cursor: pointer;
+}

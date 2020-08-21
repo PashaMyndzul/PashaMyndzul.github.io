@@ -1,0 +1,59 @@
+/** @format */
+
+.modalOverlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.modalWindow {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.modalBody input {
+	font-size: 15px;
+	font-weight: bold;
+	margin: 12px 20px 12px 20px;
+	padding: 12px;
+}
+.modalBody {
+	display: flex;
+	flex-direction: column;
+}
+.modalHeader,
+.modalFooter {
+	padding: 10px 20px;
+}
+
+.modalHeader {
+	align-items: center;
+}
+.modalButton {
+	font-size: 15px;
+	color: white;
+	background: black;
+	height: 30px;
+	cursor: pointer;
+}
+.modalButton:hover {
+	font-size: 15px;
+
+	border: 1px solid blue;
+	height: 30px;
+	cursor: pointer;
+}
+
+.modalTitle {
+	font-size: 20px;
+	font-weight: bold;
+}
